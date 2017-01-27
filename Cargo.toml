@@ -1,0 +1,6 @@
+[package]
+name = "zendesk"
+version = "0.1.0"
+authors = ["Christian Gati <christian.gati@gmail.com>"]
+
+[dependencies]
