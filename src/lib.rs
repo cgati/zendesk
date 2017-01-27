@@ -8,3 +8,6 @@
 //! # zendesk
 //!
 //! The `zendesk` crate provides an interface with Zendesk's API.
+
+pub use self::config::Config;
+mod config;
