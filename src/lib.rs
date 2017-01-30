@@ -9,5 +9,7 @@
 //!
 //! The `zendesk` crate provides an interface with Zendesk's API.
 
-pub use self::config::Config;
+pub use self::config::{Config, ConfigError};
+
+mod client;
 mod config;
