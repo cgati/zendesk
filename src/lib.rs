@@ -11,5 +11,4 @@
 
 pub use self::config::{Config, ConfigError};
 
-mod client;
 mod config;
